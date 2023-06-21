@@ -1,0 +1,132 @@
+:root {
+  --map-red: #eb2c3b;
+}
+
+body, html {
+  background-color:#ffffff;
+  margin:0;
+  padding:0;
+  background-color:#222222;
+}
+
+/* CONTAINER STYLES */
+/* //////////////// */
+
+.container-fixed {
+  position:fixed;
+  top:0;
+}
+.overlap {
+  position:relative;
+  z-index:10;
+  min-height:100vh;
+}
+.container-text {
+  position:relative;
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-items:center;
+}
+
+/* MAP STUFF */
+/* ///////// */
+
+.map-container {
+  position:relative;
+  height:600vh;
+  /* z-index:-50; */
+}
+.container-moving {
+  position:absolute;
+  transform-origin: top-left;
+}
+.map-mileage-box {
+  position:fixed;
+  bottom:50px;
+  width:100vw;
+  display:grid;
+  justify-items:center;
+  opacity:0;
+  transition: all 0.5s;
+}
+.map-mileage-text {
+  padding:30px;
+  box-sizing:border-box;
+  border-radius: 20px;
+  background-color:#99999911;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:2.5em;
+  color: var(--map-red);
+  text-align:center;
+}
+img .map {
+  position:absolute;
+  display:block;
+  /* width:200%; */
+  /* height:100%; */
+  object-fit: cover;
+  overflow: visible;
+}
+.map-container svg#map_path_usa {
+  position:absolute;
+  width:950px;
+  top:238px;
+  left:76px;
+  overflow: visible;
+}
+.map-container svg#second {
+  position:absolute;
+  width:950px;
+  top:300px;
+  left:76px;
+}
+svg polyline {
+  stroke-dasharray: 1039.97;
+  stroke-dashoffset: 1039.97;
+}
+
+.map-circle {
+  opacity:0;
+  transform-origin: center center;
+  transition: all 0.3s;
+}
+.fade-opacity {
+  opacity:.5;
+}
+
+/* TEXT / TYPE */
+/* /////////// */
+
+/* Large titles and scrolling text */
+.title-text {
+  position:relative;
+  display:grid;
+  height:100vh;
+  font-size:4em;
+  font-weight:bold;
+  font-family:helvetica, arial;
+  color:#000000;
+  margin:0 auto;
+  text-align:center;
+  transition: opacity 0.3s;
+}
+.light-on-dark {
+  color:#ffffff;
+}
+.text-fade {
+  opacity:0;
+}
+
+/* Body text */
+.text {
+  font-family: 'Baskerville', Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.4em;
+  line-height: 1.6em;
+  display:block;
+  width:600px;
+  padding-top:130px;
+}
+.text-last {
+  padding-bottom:150px;
+}

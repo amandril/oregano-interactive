@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    
+    <!-- <div class="overlap" style="height:200vh;">
+      <img id="top-image" style="position:fixed; width:100vw; object-fit:cover; bottom:0;" src="./images/XG6D4266.jpg" alt="">
+      <div class="container-text">
+        <span class="title-text light-on-dark" id="top-title">The Oregano 2500</span>
+      </div>
+    </div> -->
+
+    <div class="overlap first-slide" style="height:280vh; background-color:#222222;">
+      <!-- <img id="top-image" style="position:fixed; width:100vw; height:100%; object-fit:cover;" src="./images/XG6D4266.jpg" alt=""> -->
+
+      <img id="top-image" style="position:sticky; top:-500px; height:150vh; width:100vw; object-fit:cover;" src="./images/XG6D2388.jpg" alt="">
+      <div class="container-text">
+        <span class="title-text light-on-dark" id="top-title">The Oregon 2500</span>
+      </div>
+    </div>
+
+    <!-- <div class="overlap" style="height:200vh;">
+      <div id="top-image" style="position:relative; height:250vh; background-color:#1f2e20;">
+        <div class="container-fixed">
+          <div class="container-moving" style="display:grid; justify-items: center; align-items:center; z-index:50;">
+            <span class="title-text light-on-dark" id="top-title">The Oregano 2500</span>
+          </div>
+          <div class="container-moving" style="display:grid; justify-items:center; align-items:center; width:100vw; height:100vh;">
+            <div style="display:grid; align-content:center; justify-content: center; background-color:#efefef;">
+              <video width="640" height="480" loop autoplay muted>
+                <source src="./videos/light_tunnel.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+
+    <!-- Map, drawing line across the country -->
+    <div class="map-container" style="background-color:#222222;">
+      <div class="container-fixed">
+        <div class="container-moving map-reveal" style="transform: translate(-40%, 20%) scale(2.0);">
+          <!-- <img class="map" style="transform: translateY(88px);" width="1400" src="./images/usa-map-traced-delineations.jpg" alt="map"> -->
+          <img class="map" style="transform: translateY(88px);" width="1400" src="./images/usa-map-traced.png" alt="map">
+
+          <!-- This is the vector path across the map -->
+          <svg id="map_path_usa" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960.26 190.76"><defs><style>.cls-1{fill:none;stroke:#eb2c3b;stroke-linecap:round;stroke-linejoin:round;stroke-width:10px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="map-path">
+            
+            <polyline class="cls-1" points="955.26 157.89 918.94 161.27 888.53 181.54 865.73 185.76 858.97 171.82 831.94 163.8 806.6 164.64 796.46 154.51 782.11 160.42 747.47 161.27 734.8 154.51 704.39 154.51 682.43 161.27 652.33 170.13 623.3 170.13 604.72 178.16 570.93 178.16 544.75 165.49 510.12 154.51 487.31 157.89 463.66 157.89 434.94 154.51 398.62 140.15 384.26 130.01 363.99 130.01 333.58 110.58 315.84 92.85 304.02 92.85 292.19 98.76 268.54 97.07 241.51 87.78 222.93 87.78 197.59 95.38 184.92 92.85 171.4 78.49 165.49 64.13 151.13 60.75 131.7 47.23 118.19 31.18 93.69 23.58 66.66 23.58 40.48 23.58 21.89 15.14 5 5"/>
+
+            <circle class="circle-chicago map-circle" cx="860" cy="170" r="20" fill="#eb2c3b" />
+            <circle class="circle-dubuque map-circle" cx="790" cy="155" r="20" fill="#eb2c3b" />
+            <circle class="circle-siouxcity map-circle" cx="650" cy="167" r="20" fill="#eb2c3b" />
+            <circle class="circle-vantassel map-circle" cx="455" cy="157" r="20" fill="#eb2c3b" />
+            <circle class="circle-craters map-circle" cx="240" cy="90" r="20" fill="#eb2c3b" />
+            <circle class="circle-boise map-circle" cx="173" cy="80" r="20" fill="#eb2c3b" />
+            <circle class="circle-sisters map-circle" cx="65" cy="23" r="20" fill="#eb2c3b" />
+            <circle class="circle-newport map-circle" cx="3" cy="5" r="20" fill="#eb2c3b" />
+          
+          </g></g></svg>
+
+        </div>
+        <div class="map-mileage-box" style="z-index:100;">
+          <div class="map-mileage-text">
+            <div class="map-location"></div>
+            <div class="map-mileage"></div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="overlap" style="background-color:#ffffff;">
+      <div class="container-text">
+        <span class="text">In early May of 2008, on what was otherwise an average spring day in Ypsilanti, MI, the four of us started pedaling down Michigan Avenue, clad in spandex and cycling gear, intent on reaching the Pacific Ocean. Classes at Eastern wrapped up the week prior, putting an end to our junior year of undergrad, whose free time was largely spent on the subject of cycling. Almost nine months prior, the idea sprang in the middle of a parking lot from a loaded question. “Is it even possible to ride a bike across the country?” We’d spend that year studying, deliberating, that summer riding and learning the answer.</span>
+        <span class="text text-last">
+          It was sophomore year and I’d spent the last few semesters reprioritizing interests, largely preoccupied with photography and picking up cycling after friends started riding bikes their parents handed down to them. A friend helped me find my first road bike, a bright blue Schwinn Collegiate from a church rummage sale in mostly sound condition. I gladly paid him the ten dollars it cost, excited to join the road bike club. Months after riding it hundreds of miles, I’d accept it was too big for me and that it needed work. Its older steel frame gave me a workout every time I brought it up the stairs and into my apartment. It disappeared one night in Lansing, that time having driven it there. The next day, I bought my second road bike.
+        </span>
+      </div>
+    </div>
+
+    <div style="position:relative; height:380vh; background-color:#222222;">
+      <div class="container-fixed">
+        <div class="container-moving" style="display:grid; justify-items:center; align-items:center; z-index:10;">
+          <span class="scrolling-text title-text light-on-dark" style="width:4000px; transform: translateX(50%); top:45%;">Riding through through midwest farm country, with nothing to block the wind.</span>
+        </div>
+        <div class="container-moving" style="width:100vw; height:100vh; background-color:rgba(10, 10, 10, 0.1); z-index:5;"></div>
+        <div class="container-moving" style="display:grid; justify-items:center; align-items:center; width:100vw; height:100vh;">
+          <video width="640" height="480" loop autoplay muted>
+            <source src="./videos/MVI_0117.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+    
+    <div class="overlap" style="background-color:#ffffff;">
+      <div class="container-text">
+        <span class="text">I met Abe, Nate and Rob through a mutual friend that year. We were playing kidnapped in the suburbs of Detroit one night, getting dropped off in random parking lots back when cellphones didn’t come standard with GPS and maps. We barely knew each other before we schemed an adventure across the country – a cycling trip that would last much of the summer. It was only fitting that none of us had any experience. Riding long distance was something novel for each of us and we didn’t have the proper gear, nor the proper bikes. Even so, the haphazard nature of the plan didn’t seem to bother any of us. Bicycles were already a part of our lives - we used them to get around, as “alternative” transportation. For some of us, it was a way of rebelling against having to use a car.</span>
+        <span class="text text-last">
+          Not everyone had an appropriate bicycle, and by this point we had a dozen or so people interested in our crazy idea, though that number would dwindle as summer approached. I wanted to learn more about repairing bikes and introduced myself to a bike mechanic downtown. Jim had recently taken over the storefront where Ypsilanti Cycles had been. He was amiable when I told him about our trip, but I could tell he also saw in us our inexperience. I’d visit occasionally, sometimes with friends and their bikes, bringing some business here and there in the form of repairs and parts. For a time my apartment living room was home to no less than a half dozen bicycles, some ready to ride and some in parts, most of which we found on Craigslist. We’d bring them to Jim at the shop and it would draw humor sometimes, what I imagine looked like a gang of college students riding 80s road bikes, but it always resulted in a helping hand.
+        </span>
+      </div>
+    </div>
+
+    <div style="position:relative; height:380vh; background-color:#222222;">
+      <div class="container-fixed">
+        <img src="./images/XG6D3869.jpg" style="position:fixed; top:0; width:100vw; height:100%; object-fit:cover; z-index:50;">
+        <div style="position:fixed; right:0; bottom:0; padding:30px; z-index:50;text-align:right;">
+          <span style="line-height:1.2em; font-family:'Roboto Condensed', arial; font-size:15px; letter-spacing:.02em; font-weight:bold; color:#ffffff;">
+            Day 26<br>Central Oregon<br>2127 Miles
+          </span>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  </body>
+  <script type="text/javascript" src="app.js"></script>
+</html>

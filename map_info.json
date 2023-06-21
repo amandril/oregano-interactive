@@ -1,0 +1,85 @@
+{
+    "usaMapPoints": [
+        {
+            "id":"01",
+            "location":"Ypsilanti, MI",
+            "mileage":"0",
+            "cx":"0",
+            "cy":"0",
+            "query":"circle-ypsilanti",
+            "startPos":"0"
+        },
+        {
+            "id":"02",
+            "location":"Chicago, IL",
+            "mileage":"267",
+            "cx":"860",
+            "cy":"170",
+            "query":"circle-chicago",
+            "startPos":"-1141.1255834766662"
+        },
+        {
+            "id":"03",
+            "location":"Dubuque, IA",
+            "mileage":"490 Miles",
+            "cx":"",
+            "cy":"",
+            "query":"circle-dubuque",
+            "startPos":"-1224.4905454574093"
+        },
+        {
+            "id":"04",
+            "location":"Sioux City, Iowa",
+            "mileage":"806 Miles",
+            "cx":"",
+            "cy":"",
+            "query":"circle-siouxcity",
+            "startPos":"-1369.3507001719993"
+        },
+        {
+            "id":"05",
+            "location":"Van Tassel, WY",
+            "mileage":"1,241 Miles",
+            "cx":"",
+            "cy":"",
+            "query":"circle-vantassel",
+            "startPos":"-1570.0888502580406"
+        },
+        {
+            "id":"06",
+            "location":"Craters of the Moon, ID",
+            "mileage":"1,817 Miles",
+            "cx":"",
+            "cy":"",
+            "query":"circle-craters",
+            "startPos":"-1802.5321716649573"
+        },
+        {
+            "id":"07",
+            "location":"Boise, ID",
+            "mileage":"1,988 Miles",
+            "cx":"",
+            "cy":"",
+            "query":"circle-boise",
+            "startPos":"-1881.3601092013255"
+        },
+        {
+            "id":"08",
+            "location":"Sisters, OR",
+            "mileage":"2,336 Miles",
+            "cx":"",
+            "cy":"",
+            "query":"circle-sisters",
+            "startPos":"-2015.008641548961"
+        },
+        {
+            "id":"09",
+            "location":"Newport, OR",
+            "mileage":"2,495 Miles",
+            "cx":"",
+            "cy":"",
+            "query":"circle-newport",
+            "startPos":"-2076.6098711377463"
+        }
+    ]
+}
